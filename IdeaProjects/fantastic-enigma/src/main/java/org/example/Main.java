@@ -25,4 +25,11 @@ class AdditionOperation implements Calculable {
     public int calculate(int param) {
         return param + 9999;
     }
-}
+
+    class AddExpression implements Calculable {
+        @Override
+        public int calculate(int param) {
+            return param + 10;
+        }
+    }
+} 
